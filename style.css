@@ -1,7 +1,11 @@
 body {
-    background: lightgoldenrodyellow;
+    background: rgb(167, 167, 165);
   }
   h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
+ img {
+    width: 50%;
+                height: 50%;
+                position:relative;
+  }

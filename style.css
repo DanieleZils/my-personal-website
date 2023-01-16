@@ -1,11 +1,26 @@
+.banner {
+  background-color: rgb(29, 3, 73);
+  color: white;
+  margin-top: 75px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 100px 0;
+}
+
+#dani-photo {
+  height: 50%;
+  width: 50%;  
+}
+
+h2 {
+  color:rgb(29, 3, 73);
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
 body {
-    background: rgb(167, 167, 165);
+    background: lightgray;
   }
-  h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
- img {
-    width: 50%;
-                height: 50%;
-                position:relative;
-  }
+
+ 

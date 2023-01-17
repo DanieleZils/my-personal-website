@@ -8,8 +8,26 @@
 }
 
 #dani-photo {
-  height: 50%;
-  width: 50%;  
+  height: 60%;
+  width: 60%;  
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.info {
+  
+  position:;
+  background-color: lightgray;
+  padding: 20px;
+  width: 200px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(29, 3, 73);
+  text-align: center;
+
+  
+
+  
 }
 
 h2 {

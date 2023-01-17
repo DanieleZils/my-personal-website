@@ -1,3 +1,23 @@
+.navbar {
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 30px 20px;
+
+}
+a.purple {
+  color: rgb(29, 3, 73);
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .banner {
   background-color: rgb(29, 3, 73);
   color: white;
@@ -15,7 +35,7 @@
 
 .info {
   
-  position:;
+  position:absolute;
   background-color: lightgray;
   padding: 20px;
   width: 200px;
@@ -24,10 +44,6 @@
   font-weight: bold;
   color: rgb(29, 3, 73);
   text-align: center;
-
-  
-
-  
 }
 
 h2 {
@@ -40,5 +56,14 @@ h2 {
 body {
     background: lightgray;
   }
+#bio {
+  text-align: center;
+  font-family: serif;
+  font-size: medium;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
 
  

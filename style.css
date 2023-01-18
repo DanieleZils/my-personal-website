@@ -10,7 +10,7 @@
   padding: 30px 20px;
 
 }
-a.purple {
+.navbar a {
   color: rgb(29, 3, 73);
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
@@ -33,7 +33,7 @@ a.purple {
   filter: drop-shadow(2px 2px 2px black);
 }
 
-.info {
+#info {
   
   position:absolute;
   background-color: lightgray;

@@ -1,5 +1,4 @@
-const contact = document.getElementById('info');
-contact.addEventListener('click', function() {
-  alert('I was clicked!');
-});
+function buttonColor(){
+  document.getElementById("button").style.backgroundColor='rgb(29, 3, 73)'
+}
 

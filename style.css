@@ -18,7 +18,12 @@
   font-weight: bold;
 }
 
+body {
+  background: lightgray;
+}
+
 .banner {
+  text-align: center;
   background-color: rgb(29, 3, 73);
   color: white;
   margin-top: 75px;
@@ -33,22 +38,6 @@
   filter: drop-shadow(2px 2px 2px black);
 }
 
-#info {
-  
-  position:absolute;
-  background-color: lightgray;
-  padding: 20px;
-  width: 200px;
-  margin-left: 750px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: large;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  color: rgb(29, 3, 73);
-  text-align: center;
-}
-
 h2 {
   color:rgb(29, 3, 73);
   font-size: x-large;
@@ -56,9 +45,7 @@ h2 {
   text-align: center;
 }
 
-body {
-    background: lightgray;
-  }
+
 #bio {
   text-align: center;
   font-family: serif;
@@ -69,4 +56,20 @@ body {
 
 }
 
- 
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  
+  position:absolute;
+  background-color: lightgray;
+  padding: 20px;
+  width: 200px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(29, 3, 73);
+  text-align: center;
+}
